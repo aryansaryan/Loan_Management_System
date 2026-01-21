@@ -1,0 +1,42 @@
+Folder PATH listing for volume OS
+Volume serial number is 12E4-B3A3
+C:.
+|   App.tsx
+|   index.css
+|   index.tsx
+|   structure.txt
+|   vite-env.d.ts
+|   
++---api
+|       admin.ts
+|       auth.ts
+|       client.ts
+|       loans.ts
+|       
++---assets
+|       homepage.png
+|       logomain.png
+|       
++---auth
+|       authStorage.ts
+|       ProtectedRoute.tsx
+|       
++---components
+|       AppHeader.tsx
+|       
++---pages
+|       AdminDashboard.tsx
+|       AdminLoansPage.tsx
+|       AdminUsersPage.tsx
+|       AnalystDashboard.tsx
+|       ApplicationStatusPage.tsx
+|       CustomerDashboard.tsx
+|       HomePage.tsx
+|       LoanApplication.tsx
+|       LoginPage.tsx
+|       SignupPage.tsx
+|       
+\---routes
+        RoleDashboardRedirect.tsx
+        RoleRoute.tsx
+        

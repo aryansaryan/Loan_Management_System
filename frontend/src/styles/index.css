@@ -1,0 +1,23 @@
+/* Stretch app to full viewport height */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Global scroll behavior and base font */
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: "IBM Plex Sans", "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  /* Hide scrollbar (Firefox + legacy Edge) */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* Hide scrollbar in WebKit browsers */
+body::-webkit-scrollbar {
+  display: none;
+}
