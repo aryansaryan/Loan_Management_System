@@ -133,14 +133,6 @@ screenshots/
  └─ HomePage.png
 ```
 
-Example usage:
-
-```
-![Admin Dashboard](screenshots/admin-dashboard.png)
-```
-
----
-
 ## Project Structure
 
 ```
